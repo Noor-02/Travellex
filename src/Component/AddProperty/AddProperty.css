@@ -1,0 +1,402 @@
+
+
+.maincontainer{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(92, 86, 86,1);
+    width: 60%;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    color: black;
+    height: 73rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    
+}
+
+.mainform{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.aheader{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 20rem;
+    margin-bottom: 1.5rem;
+}
+
+.abutton{
+    border: rgb(31, 29, 29) solid 1px;
+    border-radius: 30px;
+    cursor:pointer;
+    background-color: white;
+    width: 9rem;
+    height: 2.5rem;
+    font-weight: 600;
+    margin-left: 14.7rem;
+}
+
+.abutton:hover{
+    box-shadow: 1px 1px 6px rgba(92, 86, 86,1);
+}
+
+.adiv{
+    display: flex;
+    margin-left: 4rem;
+    /* flex-direction: column; */
+}
+.actdiv{
+    display: flex;
+    margin-left: 2rem;
+    /* flex-direction: column; */
+}
+.ardiv{
+    display: flex;
+    margin-left: 6rem;
+    /* flex-direction: column; */
+    /* margin-top: 0.5rem; */
+    margin-bottom: 0.7rem;
+}
+
+.acdiv{
+    display: flex;
+
+}
+
+.ainput{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    margin-left: 18rem;
+    height: 2.4rem;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.binput{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    margin-left: 3.3rem;
+    height: 2.4rem;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cinput{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    height: 2.4rem;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dinput{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    height: 2.4rem;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.einput{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    height: 2.4rem;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.finput{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    height: 2.4rem;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ginput{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    height: 2.4rem;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hinput{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    height: 2.4rem;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.jinput{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    height: 2.4rem;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.namelabel{
+    margin-right: 1.5rem;
+    margin-left: 2rem;
+}
+
+.ratinglabel{
+    
+    margin-right: 19rem;
+}
+
+.radiolabel{
+    margin-right: 2.2rem;
+}
+
+.locationlabel{
+    margin-right: 15rem;
+    margin-left: 2rem;
+}
+
+
+.typelabel{
+    margin-right: 20rem;
+    margin-left: 2rem;
+}
+
+.urlLabel{
+    width: 11rem;
+    margin-right: 16.9rem;
+}
+
+.auinputf1{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    /* margin-right: 4.1rem; */
+    height: 2.4rem;
+    cursor: pointer;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.auinputf2{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    margin-left: 26.3rem;
+    height: 2.4rem;
+    cursor: pointer;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.auinputs{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    margin-left: 26.3rem;
+    height: 2.4rem;
+    cursor: pointer;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.auinputs1{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    margin-right: 3.1rem;
+    margin-left: 26.3rem;
+    height: 2.4rem;
+    cursor: pointer;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.auinputs2{
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    margin-left: 26.3rem;
+    height: 2.4rem;
+    cursor: pointer;
+    border-color:#bebaba;
+    border-top-color: #f4f3f3 ;
+    border-left-color: #f4f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.guestlabel{
+    margin-right: 19.5rem;
+    margin-left: 2rem;
+}
+
+.bedroomlabel{
+    margin-right: 19rem;
+    margin-left: 2rem;
+}
+
+.bedlabel{
+    margin-right: 21.4rem;
+    margin-left: 2rem;
+}
+
+.bathroomlabel{
+    margin-right: 18.8rem;
+    margin-left: 2rem;
+}
+
+.desclabel{
+    margin-right: 17rem;
+    margin-left: 2rem;
+}
+
+.atinput{
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    width: 20rem;
+    cursor: pointer;
+}
+
+.wifilabel{
+    margin-right: 19rem;
+    margin-left: 6rem;
+}
+
+.check1{
+    height: 21px;
+    width: 21px;
+    cursor: pointer;
+    margin-right: 16rem;
+}
+.check2{
+    height: 21px;
+    width: 21px;
+    cursor: pointer;
+    margin-right: 13rem;
+}
+.check4{
+    height: 21px;
+    width: 21px;
+    cursor: pointer;
+    margin-right: 16rem;
+}
+.check5{
+    height: 21px;
+    width: 21px;
+    cursor: pointer;
+    margin-right: 13rem;
+}
+.check{
+    height: 21px;
+    width: 21px;
+    cursor: pointer;
+}
+
+.kitchenlabel{
+    margin-right: 17.5rem;
+    margin-left: 6rem;
+}
+
+.parkinglabel{
+    margin-right: 17.5rem;
+    margin-left: 6rem;
+}
+
+.tvlabel{
+    margin-right: 19.6rem;
+    margin-left: 6rem;
+}
+
+.bathtublabel{
+    margin-right: 17.3rem;
+    margin-left: 6rem;
+}
+
+.petslabel{
+    margin-right: 20.2rem;
+    margin-left: 6rem;
+}
+
+.costlabel{
+    margin-right: 19.6rem;
+    margin-left: 2rem;
+}
+
+.datelabel{
+    margin-right: 18.4rem;
+    margin-left: 2rem;
+}
+
+.radioinput{
+    cursor: pointer;
+}
+
+.cabutton{
+    
+        border: rgb(31, 29, 29) solid 1px;
+        border-radius: 30px;
+        cursor:pointer;
+        background-color: white;
+        width: 9rem;
+        height: 2.5rem;
+        font-weight: 600;
+        margin-left: 2rem;
+    }
+    
+    .cabutton:hover{
+        box-shadow: 1px 1px 6px rgba(92, 86, 86,1);
+    }
+
+    .adivurl{
+        display: flex;
+
+    }
+.flexrow
+{
+    display: flex;
+}
+
+.urladiv{
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    margin-left: 6rem;
+}

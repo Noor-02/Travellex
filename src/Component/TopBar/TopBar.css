@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+
+.bgcolorhome{
+    background-color: black;
+    padding-top: 1rem;
+}
+.bgcolornothome{
+    background-color: white;
+    padding-top: 1rem;
+}
+
+body{
+    background-color: black ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 2rem;
+    height: 2rem;
+    fill-rule: rgb(69, 69, 201) !important;
+    cursor: pointer;
+}
+
+.webstart{
+    display: flex;
+    margin-left: 2rem;
+    padding-top: 1.5rem;
+}
+
+.name{
+    font-size: 1.9rem;
+    font-family: 'Mea Culpa', cursive !important;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.navbar{
+    margin-top: 0.2rem;
+    border-radius: 15px;
+    height: 5rem;
+    width: 100%;
+    
+}
+
+.searchButton{
+    border: rgb(187, 181, 181) solid 1px;
+    border-radius: 30px;
+    /* box-shadow: 0px 1px 8px grey; */
+    cursor:pointer;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 2.5rem;
+    margin-left: 28rem;
+}
+
+.searchButton:hover{
+    box-shadow: 1px 1px 6px grey;
+}
+
+.searchdiv{
+    margin-top: 0.3rem;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1rem;
+    padding-left: 1rem;
+    font-weight: 500;
+    
+}
+
+.searchicong{
+   
+    background-color: rgb(69, 69, 201);
+    border: white solid 1px;
+    border-radius: 33px;
+    width: 133px;
+    height: 52px;
+    padding-top: 0.8rem;
+    display: flex;
+    padding-left: 1.5rem;
+}
+
+.searchicong:hover{
+    background-color:  rgb(58, 58, 170);
+}
+
+.searchicon{
+    margin-top: 0.2rem;
+    background-color: rgb(69, 69, 201);
+    border: white solid 1px;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+     padding-top: 0.2rem;
+    /*display: flex;
+    padding-left: 0.5rem; */
+}
+
+.icontext{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-left: 0.3rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.searchlogo{
+    height: 16px;
+    width: 16px;
+}
+.searchlogog{
+    height: 23px;
+    width: 23px;
+}
+
+.signupbutton{
+    border: rgb(187, 181, 181) solid 1px;
+    border-radius: 30px;
+    cursor:pointer;
+    background-color: white;
+    width: 100px;
+    height: 2.5rem;
+    font-weight: 600;
+}
+
+.signupbutton:hover{
+    box-shadow: 1px 1px 6px grey;
+}
+
+.buttons{
+    margin-left: 19rem;
+}
+
+.buttonsdiv{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    /* font-size: 1rem; */
+    font-weight: 500;
+}
+
+.header{
+    display:flex !important;
+    flex: 0 0 auto !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 0px 12rem !important;
+    min-height: 48px !important;
+    border-bottom: 1px solid rgb(196, 193, 193) !important;
+    color: rgb(34, 34, 34) !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: 800 !important
+}
+
+.inputdiv{
+    display: flex !important;
+    flex-direction: column;
+    height: 71px !important;
+    width: 100% !important;
+    border: none !important;
+    outline: none !important;
+    margin: 0px !important;
+    padding: 8px 36px 10px 36px !important;
+    background-color: transparent !important;
+    color: inherit !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    appearance: none !important;
+}
+.inputdiv2{
+    display: flex !important;
+    height: 71px !important;
+    width: 100% !important;
+    border: none !important;
+    outline: none !important;
+    margin: 0px !important;
+    padding: 26px 36px 10px 36px !important;
+    background-color: transparent !important;
+    color: inherit !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    appearance: none !important;
+}
+
+
+.forminput{
+    width: 100% !important;
+    border: rgb(187, 181, 181) solid 1px !important;
+    border-radius: 8px;
+    outline: none !important;
+    padding: 10px 0px !important;
+    height: 3rem;
+    color: inherit !important;
+    background-color: transparent !important;
+    font-family: inherit !important;
+    font-size: 1.1rem !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    appearance: none !important;
+    margin: 0.2rem 0rem;
+}
+
+
+
+
+.formButton{
+    border: rgb(187, 181, 181) solid 1px;
+    border-radius: 30px;
+    cursor:pointer;
+    background-color: white;
+    width: 150px;
+    height: 2.5rem !important;
+    margin-left: 1.5rem;
+    /* margin-top: 1rem; */
+    padding: 8px 0px;
+}
+.formButton2{
+    border: rgb(187, 181, 181) solid 1px;
+    border-radius: 30px;
+    cursor:pointer;
+    background-color: white;
+    width: 150px;
+    height: 2.5rem !important;
+    margin-left: 2rem;
+    /* margin-top: 1rem; */
+    padding: 8px 0px;
+}
+
+.formButton:hover{
+    box-shadow: 1px 1px 6px grey;
+}
+.formButton2:hover{
+    box-shadow: 1px 1px 6px grey;
+}
+
+.ilabel{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1.3rem;
+}
+
+.completeform{
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tablediv{
+    border: solid rgb(230, 223, 223) 2px;
+    border-radius: 3rem;
+    width: 64rem;
+    background-color: white;
+    margin-left: 16rem ;
+    height: 4rem;
+    
+    /* margin-bottom: 1rem; */
+}
+
+.loginform{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sdiv{
+    height: 3.6rem;
+    padding-left: 2rem;
+    margin-bottom: 2.5rem;
+    width: 14.5rem;
+}
+
+.sgdiv{
+    height: 3.6rem;
+    padding-left: 2rem;
+    display: flex;
+    width: 10rem;
+    margin-bottom: 2.5rem;
+    
+}
+
+.sdiv:hover{
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid rgb(255, 255, 255) !important; */
+    border-radius: 3rem;
+    box-shadow: rgb(0 0 0 / 20%) 0px 6px 20px !important;
+    cursor: pointer;
+    display: flex;
+}
+.sgdiv:hover{
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid rgb(255, 255, 255) !important; */
+    border-radius: 3rem;
+    box-shadow: rgb(0 0 0 / 20%) 0px 6px 20px !important;
+    cursor: pointer;
+}
+
+.sbutton{
+    background-color: white;
+    border: white solid 1px;
+    cursor: pointer;
+    border-radius: 32px;
+    margin-bottom: 2.5rem;
+}
+
+.sinput{
+    border: white solid 1px;
+    border-radius: 8px;
+    height: 1.5rem;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: grey;
+}
+.sinputg{
+    border: white solid 1px;
+    border-radius: 8px;
+    height: 1.5rem;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: grey;
+    width: 7rem;
+}
+
+.sinput:focus{
+    border: white 1px solid !important;
+}
+
+.spec{
+    margin-right: 1rem;
+}
+
+.slabel{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.lheader{
+    display:flex !important;
+    flex: 0 0 auto !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 0px 12.2rem !important;
+    min-height: 48px !important;
+    border-bottom: 1px solid rgb(196, 193, 193) !important;
+    color: rgb(34, 34, 34) !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: 800 !important
+}
+
+.propertiesbutton{
+    border: rgb(187, 181, 181) solid 1px;
+    border-radius: 30px;
+    cursor:pointer;
+    background-color: white;
+    width: 150px;
+    height: 2.5rem;
+    font-weight: 600;
+}
+
+.propertiesbutton:hover{
+    /* box-shadow: 1px 1px 6px white; */
+    box-shadow: 1px 1px 6px grey;
+}
+
+.propertyButton{
+    margin-left: 2rem;
+}
+
+.trvallexwhite{
+    color: white;
+}
+
+.home{
+ border: rgb(107, 105, 105) solid 1px;
+ box-shadow: -2px 2px 10px 4px rgb(107, 105, 105);
+ background-color: black;
+}
+
+.nothome{
+    border: rgb(170 165 165) solid 1px;
+    box-shadow: -2px 2px 10px 4px rgb(206 201 201);
+    background-color: white;
+}
+

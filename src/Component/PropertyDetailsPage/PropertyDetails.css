@@ -1,0 +1,319 @@
+
+
+body{
+    padding-bottom: 1rem;
+}
+.mainImageBox{
+    background-color: white;
+    color: white;
+    font-size: 5rem;
+    border-radius: 12px;
+    /* box-shadow: 0 1px 8px rgba(240, 238, 238, 0.788); */
+    display: flex;
+    height: 20rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+
+.detaildiv{
+    margin-top: 2rem;
+}
+
+.imageBox1{
+    border-radius: 12px;
+    /* box-shadow: 0 1px 8px rgba(240, 238, 238, 0.788); */
+}
+
+.imagediv{
+    height: 20rem;
+}
+
+.imageBox2{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    /* box-shadow: 0 1px 8px rgba(240, 238, 238, 0.788); */
+    height: 20rem;
+    margin-left: 0.5rem;
+}
+
+.imageBox3{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;  
+    height: 20rem;
+    margin-left: 0.5rem;
+}
+
+.img1{
+    height: 22rem;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+}
+
+.img2{
+    height: 10.3rem;
+    width: 18rem;  
+}
+.img3{
+    height: 10.3rem;
+    width: 18rem;
+    border-top-right-radius: 12px;
+    
+}
+.img4{
+    height: 10.3rem;
+    width: 18rem;
+    border-bottom-right-radius: 12px;
+   
+}
+ 
+.contentdiv{
+    
+    margin-top: 2rem;
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 51rem;
+}
+
+.outerbox{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.headering{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    width: 80%;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+}
+
+.headering2{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    width: 80%;
+}
+
+.headering3{
+    font-size: 1rem;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.titleheadering{
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-size: 1rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+
+.subheadering{
+    font-size: 1.5rem;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: #bebaba 1px solid;
+    width: 80%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.Features{
+    font-size: 1rem;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0.5rem;
+    width: 80%;
+}
+
+.luxuries{
+    font-size: 1rem;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.pricecard{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(92, 86, 86,1);
+    width: 24rem;
+    top: 87vh;
+    left: 60%;
+    position: sticky;
+    padding-bottom: 1rem;
+    height: 25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.drates{
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 1rem;
+}
+
+.dpPrice{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.dprating{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.datepicketlabel{
+    color: black;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.edatepicketlabel{
+    color: black;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 1rem;
+}
+
+.dateinputs{
+    display: flex;
+    border-top: #bebaba solid 1px;
+    margin-top: 1rem;
+    padding-top: 1rem;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.datepicker{
+    border-top-right-radius: 5px ;
+    border-left-color: #f4f3f3;
+    border-top-color: #f4f3f3;
+    border-bottom-color: #f4f3f3;
+    border-right-color: #bebaba;
+    margin-right: 1rem;
+    width: 11rem;
+    cursor: pointer;
+    height: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.edatepicker{
+    border-color: #f4f3f3;
+    border-top-left-radius: 5px ;
+    width: 11rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    height: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.guestpicker{
+    border-bottom-right-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+    border-top-color: #f4f3f3;
+    border-bottom-color: #bebaba;
+    border-right-color: #bebaba ;
+    border-left-color: #f4f3f3 ;
+    margin-right: 1rem;
+    width: 22rem;
+    cursor: pointer;
+    height: 3rem;
+    margin-left: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.guestpicketlabel{
+    color: black;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 6.3rem;
+    margin-left: 1rem;
+}
+
+.guestinput{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: #bebaba solid 1px;
+    padding-bottom: 1rem;
+    width: 24rem;
+    
+}
+
+.calculatebutton{
+    border: rgb(31, 29, 29) solid 1px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgb(69, 69, 201);
+    width: 22rem;
+    height: 2.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: white;
+
+}
+
+.calculatebutton:hover{
+    box-shadow: 1px 1px 6px rgba(92, 86, 86,1);
+}
+
+
+.reservebutton{
+    border: rgb(31, 29, 29) solid 1px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgb(69, 69, 201);
+    width: 22rem;
+    height: 2.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    color: white;
+
+}
+
+.reservebutton:hover{
+    box-shadow: 1px 1px 6px rgba(92, 86, 86,1);
+}
+
+.calspan{
+    color: black;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.finalspan{
+    color: black;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pricing{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
